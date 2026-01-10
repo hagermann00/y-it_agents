@@ -1,0 +1,20 @@
+# Intermediate files - always regenerated
+.tmp/
+
+# Environment and credentials
+.env
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/

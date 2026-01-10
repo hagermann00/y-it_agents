@@ -1,0 +1,20 @@
+book: test_run
+chapter: 1
+images:
+  - id: test_img1
+    type: DIAGRAM
+    prompt: "Simple flowchart infographic showing three boxes connected by arrows: START → PROCESS → END, clean minimal design, dark purple background, white text and lines, modern flat style"
+    placement: inline
+    caption: "Test flowchart"
+
+  - id: test_img2
+    type: COMIC
+    prompt: "Single panel cartoon of a stick figure sitting at a computer looking confused, speech bubble says 'Is this thing working?', simple black lines on white background, minimalist style"
+    placement: inline
+    caption: "Test comic"
+
+  - id: test_img3
+    type: DIAGRAM
+    prompt: "Pie chart showing 80% labeled 'Success' in green and 20% labeled 'Learning' in blue, clean infographic style, white background, modern minimal design"
+    placement: inline
+    caption: "Test chart"

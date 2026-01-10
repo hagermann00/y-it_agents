@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>YIT Image Generator</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      width: 320px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #1a1a2e;
+      color: #eee;
+      padding: 16px;
+    }
+    h1 {
+      font-size: 16px;
+      margin-bottom: 12px;
+      color: #7b2cbf;
+    }
+    .status {
+      background: #16213e;
+      padding: 12px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+    .status-label {
+      font-size: 11px;
+      color: #888;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+    .status-value {
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .status-value.idle { color: #888; }
+    .status-value.processing { color: #4ade80; }
+    .status-value.error { color: #f87171; }
+    
+    .progress {
+      background: #16213e;
+      padding: 12px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+    .progress-bar {
+      height: 8px;
+      background: #333;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-top: 8px;
+    }
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #7b2cbf, #9d4edd);
+      transition: width 0.3s;
+    }
+    .progress-text {
+      font-size: 12px;
+      color: #aaa;
+      margin-top: 6px;
+    }
+    
+    .actions {
+      display: flex;
+      gap: 8px;
+    }
+    button {
+      flex: 1;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    button:hover { opacity: 0.9; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    
+    .btn-primary {
+      background: linear-gradient(135deg, #7b2cbf, #9d4edd);
+      color: white;
+    }
+    .btn-secondary {
+      background: #333;
+      color: #ccc;
+    }
+    .btn-danger {
+      background: #dc2626;
+      color: white;
+    }
+    
+    .batch-input {
+      margin-bottom: 12px;
+    }
+    textarea {
+      width: 100%;
+      height: 120px;
+      background: #16213e;
+      border: 1px solid #333;
+      border-radius: 6px;
+      color: #eee;
+      padding: 10px;
+      font-family: 'Consolas', monospace;
+      font-size: 11px;
+      resize: none;
+    }
+    textarea:focus {
+      outline: none;
+      border-color: #7b2cbf;
+    }
+    
+    .errors {
+      background: #2d1f1f;
+      border: 1px solid #5c2424;
+      border-radius: 6px;
+      padding: 10px;
+      margin-top: 12px;
+      font-size: 11px;
+      color: #f87171;
+      max-height: 100px;
+      overflow-y: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎨 YIT Image Generator</h1>
+  
+  <div class="status">
+    <div class="status-label">Status</div>
+    <div class="status-value idle" id="status">Idle</div>
+  </div>
+  
+  <div class="progress" id="progressSection" style="display: none;">
+    <div class="status-label">Progress</div>
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+    </div>
+    <div class="progress-text" id="progressText">0 / 0</div>
+  </div>
+  
+  <div class="batch-input" id="batchInput">
+    <textarea id="batchYaml" placeholder="Paste YAML batch here..."></textarea>
+  </div>
+  
+  <div class="actions">
+    <button class="btn-primary" id="startBtn">Start Batch</button>
+    <button class="btn-secondary" id="pauseBtn" style="display: none;">Pause</button>
+  </div>
+  
+  <div class="errors" id="errors" style="display: none;"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

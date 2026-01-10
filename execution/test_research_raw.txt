@@ -1,0 +1,26 @@
+[RAW RESEARCH DUMP - TOPIC: AI AUTOMATION AGENCIES (AAA)]
+
+SOURCE: Youtube Video "How I Made $10k in 30 Days with AAA" (Guru: Liam Z)
+CLAIM: "You don't need to know how to code. You just connect the APIs and charge businesses $3,000/month for a chatbot."
+CLAIM: "Profit margins are 98% because the AI does all the work."
+MECHANIC: "Use Voiceflow to build the bot logic visually."
+MECHANIC: "Use Stack AI to connect the LLM backend."
+MECHANIC: "Reach out to 50 local plumbing businesses via Instagram DM."
+
+SOURCE: Reddit r/marketing thread "Is AAA dead?"
+OUTCOME: "I spent 3 months building a 'perfect' support bot for dentists. Cold emailed 400 clinics. Got 2 replies, both said no. $0 revenue." (User: sad_bot_builder)
+COST: "Stack AI subscription is $150/month if you want the decent features."
+COST: "Voiceflow Pro is $50/month."
+COST: "Spent $500 on Apollo.io for leads that didn't convert."
+CONSTRAINT: "Most businesses don't want a chatbot handling their customers. They're terrified of hallucinations."
+
+SOURCE: Skool Community "The AAA Accelerator" (Success Story)
+OUTCOME: "Closed my first client! $1,500 setup fee + $500/month retainer. It's a local gym." (User: Tyler99)
+ARCHETYPE: Side Hustler
+LABEL: WINNER
+MECHANIC: "I walked into the gym physically and talked to the owner. DMs don't work anymore."
+
+SOURCE: Twitter Thread @AI_Hustle_King
+CLAIM: "AAA is the new dropshipping. First to market wins."
+CONSTRAINT: "OpenAI API costs can spike if your bot gets stuck in a loop. One guy lost $200 overnight."
+RESOURCE: "Zapier is essential for connecting the leads to the CRM."
