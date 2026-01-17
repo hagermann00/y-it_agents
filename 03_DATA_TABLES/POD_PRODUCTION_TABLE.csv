@@ -1,0 +1,19 @@
+Classification_ID,Pillar,Chapter_Dest,Subject,Data_Point,Context,Archetype,Label,Source_URL
+CLM-CH01-001,CLAIM,CH01,Passive Income,Upload & Forget,"Truly passive: upload once, paid forever",,,Guru Concept
+CLM-CH01-002,CLAIM,CH01,Revenue Potential,"$10k/month in 90 days","Fast scale promise with zero down",,,Guru Concept
+MCH-CH02-001,MECHANIC,CH02,Platform,Etsy Integration,"Sync provider (Printify/Printful) to Etsy",,,POD Guide
+MCH-CH02-002,MECHANIC,CH02,SEO,Titles & Tags,"Optimize for Etsy search visibility",,,POD Guide
+CST-CH03-001,COST,CH03,Etsy Fee,Listing $0.20,"Every 4 months per item",,,Etsy 2025
+CST-CH03-002,COST,CH03,Etsy Transaction,6.5% of sale,"Direct fee on turnover",,,Etsy 2025
+CST-CH03-003,COST,CH03,Payment Proc,3% + $0.25,"Standard processing fee",,,Etsy 2025
+CST-CH03-004,COST,CH03,Offsite Ads,15% of sale,"Etsy's mandatory ad cut for many",,,Etsy 2025
+CST-CH03-005,COST,CH03,Item Cost,Printful $11.50,"B+C 3001 t-shirt base",,,Market Snapshot
+CST-CH03-006,COST,CH03,Item Cost,Printify $9.11,"B+C 3001 t-shirt base",,,Market Snapshot
+CST-CH03-007,COST,CH03,Shipping,$4.69 USA,"Single shirt shipping cost",,,Market Snapshot
+CON-CH05-001,CONSTRAINT,CH05,Account Ban,IP Infringement,"Disney/Marvel sweeps cause instant bans",,,Market Snapshot
+CON-CH05-002,CONSTRAINT,CH05,Saturation,Organic Myth,"High competition makes organic sales rare",,,Market Snapshot
+CON-CH05-003,CONSTRAINT,CH05,Disclosure,Production Partners,"Must list Printify/Printful or risk ban",,,Etsy Policy
+OUT-CH04-001,OUTCOME,CH04,Ad Burn,"-$460 Loss","$500 on ads for 3 shirt sales",Side Hustler,LOSER,Reddit
+OUT-CH04-002,OUTCOME,CH04,Hollow Victory,$200 Profit,"$5,000 in sales, but eroded by fees/ads",Side Hustler,LOSER,Reddit
+OUT-CH04-003,OUTCOME,CH04,Strategy Ban,"-$3,800 Loss","Bought $3.8k course, banned for stealing",Side Hustler,LOSER,Reddit
+RES-CH07-001,RESOURCE,CH07,Alternative,Original Art,"Unique IP reduces ban risk",,,Industry Audit

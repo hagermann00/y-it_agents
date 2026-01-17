@@ -1,0 +1,15 @@
+Classification_ID,Pillar,Chapter_Dest,Subject,Data_Point,Context,Archetype,Label,Source_URL,Credibility_Score,Verification_Status,Resolution_Notes
+CLM-CH01-001,CLAIM,CH01,Revenue Potential,"$3,000/month recurring","Guru claim: charge businesses $3k for a chatbot",,,Youtube Liam Z,35,REJECTED,Inflated guru promise. Conflicts with verified outcomes.
+CLM-CH01-002,CLAIM,CH01,Profit Margin,98%,"Guru claim: 'AI does all the work'",,,Youtube Liam Z,35,REJECTED,Unsupported by evidence. Operational costs (API/Stack) make this impossible.
+MCH-CH02-001,MECHANIC,CH02,Build Tool,Voiceflow,"Visual bot logic builder",,,Youtube Liam Z,30,VERIFIED,Standard industry tool.
+MCH-CH02-002,MECHANIC,CH02,Backend Tool,Stack AI,"LLM backend connector",,,Youtube Liam Z,30,VERIFIED,Standard industry tool.
+MCH-CH02-003,MECHANIC,CH02,Outreach,Instagram DMs,"Targeting 50 businesses via DM",,,Youtube Liam Z,35,CONTEXTUAL,"Resolution: Secondary method only. Practitioner data shows low effectiveness."
+OUT-CH04-001,OUTCOME,CH04,Failed Outreach,0% conversion,"Sent 400 cold emails to dentists, 0 sales",Karen/Professional,LOSER,Reddit r/marketing,65,VERIFIED,Strong evidence of market resistance.
+CST-CH03-001,COST,CH03,Subscription,Stack AI $150/mo,"Required for 'decent' features",,,Reddit r/marketing,65,VERIFIED,Verified pricing.
+CST-CH03-002,COST,CH03,Subscription,Voiceflow Pro $50/mo,"Monthly operational cost",,,Reddit r/marketing,65,VERIFIED,Verified pricing.
+CST-CH03-003,COST,CH03,Lead Gen,Apollo.io $500,"Spent on leads that didn't convert",,,Reddit r/marketing,65,VERIFIED,Standard burn rate for agency startups.
+CON-CH05-001,CONSTRAINT,CH05,Customer Friction,Trust Issues,"Businesses terrified of AI hallucinations",,,Reddit r/marketing,35,VERIFIED,Qualitative market signal.
+OUT-CH04-002,OUTCOME,CH04,First Sale,"$1,500 setup + $500/mo","Closed a local gym client",Tyler/Winner,WINNER,Skool Success Story,50,VERIFIED,Realistic entry price point.
+MCH-CH02-004,MECHANIC,CH02,Outreach strategy,Physical Walk-in,"DMs failed, physical presence worked",,,Skool Success Story,35,VERIFIED,"Resolution: Primary recommended strategy for local businesses."
+CON-CH05-002,CONSTRAINT,CH05,API Overrun,OpenAI Spikes,"$200 lost overnight due to bot loop",,,Twitter AI_Hustle_King,45,VERIFIED,Verified technical risk.
+RES-CH07-001,RESOURCE,CH07,Automation,Zapier,"Essential for CRM integration",,,Twitter AI_Hustle_King,30,VERIFIED,Standard tool.

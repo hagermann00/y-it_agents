@@ -1,0 +1,3 @@
+# Y-IT AGENTS MANIFEST
+
+- [SWARM_ROLE_CALL_AND_PROMPT_PRIMER.md](file:///c:/iiwii_db/y-it_agents/SWARM_ROLE_CALL_AND_PROMPT_PRIMER.md)

@@ -1,6 +1,5 @@
 # Y-IT MASTER TONE DOCUMENT v1.0
 ## The Canonical Voice Guide
-### Persona: Y-It-itude (Voice Application Stage)
 
 ---
 

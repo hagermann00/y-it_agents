@@ -1,0 +1,59 @@
+book: y_it_assets
+chapter: posibot_pilot
+images:
+  # ASSET 1: POSIBOT POSE SHEET (Reference: Uploaded Pose Sheet)
+  - id: posibot_pose_sheet_v1_standard
+    type: CHARACTER_SHEET
+    prompt: "STRICT CONSISTENCY: Matches uploaded PosiBot design (Gold/Tan Body, Dark Iron Joints, Cyan Screen, Antenna). 5 Poses: Running, Headphones, Map Reader, Puzzle Piece, Lightbulb Idea. STYLE: Precise Cartoon / Clean Mascot Vector. White Background."
+    placement: resource
+    caption: "PosiBot Standard Poses - Variant 1 (Clean)"
+
+  - id: posibot_pose_sheet_v2_dynamic
+    type: CHARACTER_SHEET
+    prompt: "STRICT CONSISTENCY: Matches uploaded PosiBot design. SAME 5 Poses (Running, Headphones, Map, Puzzle, Idea) but with EXAGGERATED PERSPECTIVE and DYNAMIC LIGHTING. STYLE: High-End 3D Render / Pixar-style lighting on the Gold/Tan Surface."
+    placement: resource
+    caption: "PosiBot Standard Poses - Variant 2 (Dynamic 3D)"
+
+  - id: posibot_pose_sheet_v3_sticker
+    type: CHARACTER_SHEET
+    prompt: "STRICT CONSISTENCY: Matches uploaded PosiBot design. SAME 5 Poses. STYLE: Flat Vector Sticker Art with Thick White Borders and Bold Outlines. Optimized for printing."
+    placement: resource
+    caption: "PosiBot Standard Poses - Variant 3 (Sticker Art)"
+
+  # ASSET 2: SIGN TEMPLATE (Reference: Uploaded Sign Template)
+  - id: posibot_sign_template_v1_standard
+    type: PROP_SHEET
+    prompt: "STRICT CONSISTENCY: Matches uploaded Sign Template. PosiBot (Gold/Tan/Jetboots) flying with BLANK WHITEBOARD SIGN. Angles: Front, Side, Back. STYLE: Precise Cartoon / Clean Mascot Vector."
+    placement: resource
+    caption: "Sign Template - Variant 1 (Clean)"
+
+  - id: posibot_sign_template_v2_action
+    type: PROP_SHEET
+    prompt: "STRICT CONSISTENCY: Matches uploaded Sign Template. PosiBot flying with BLANK SIGN. Angles: Front, Side, Back. ACTION EMPHASIS: Motion blur on jets, trailing smoke, more aggressive flight pose. STYLE: Action Comic."
+    placement: resource
+    caption: "Sign Template - Variant 2 (Action)"
+
+  - id: posibot_sign_template_v3_minimal
+    type: PROP_SHEET
+    prompt: "STRICT CONSISTENCY: Matches uploaded Sign Template. PosiBot flying with BLANK SIGN. Angles: Front, Side, Back. DESIGN: Ultra-minimalist flat design, limited color palette (Gold, Cyan, Dark Grey), geometric shapes. STYLE: Corporate Memphis / Tech Minimal."
+    placement: resource
+    caption: "Sign Template - Variant 3 (Minimalist)"
+
+  # ASSET 3: SIGNATURE PAGE "WHY IT WON'T WORK" (Reference: Uploaded Poster)
+  - id: signature_page_v1_direct_match
+    type: POSTER
+    prompt: "Layout matches uploaded 'Why It Won't Work' poster. TEXT: 'WHY IT... PROBABLY WON'T WORK'. CHARACTER: Chad (Green Shirt) doing the SHRUG pose. Background: Dark Teal/Slate. STYLE: Clean Vector / Editorial Illustration."
+    placement: full_page
+    caption: "Signature Page - Variant 1 (Direct Match)"
+
+  - id: signature_page_v2_dark_mode
+    type: POSTER
+    prompt: "Layout matches uploaded 'Why It Won't Work' poster. TEXT: 'WHY IT... PROBABLY WON'T WORK'. CHARACTER: Chad (Green Shirt) doing the SHRUG pose. COLOR SWAP: Deep Navy Background with Neon Cyan Text. STYLE: Cyberpunk / Tech Noir."
+    placement: full_page
+    caption: "Signature Page - Variant 2 (Dark Mode)"
+
+  - id: signature_page_v3_paper_texture
+    type: POSTER
+    prompt: "Layout matches uploaded 'Why It Won't Work' poster. TEXT: 'WHY IT... PROBABLY WON'T WORK'. CHARACTER: Chad (Green Shirt) doing the SHRUG pose. TEXTURE: Old Paper / screenprint texture overlay. STYLE: Vintage Public Service Announcement."
+    placement: full_page
+    caption: "Signature Page - Variant 3 (Vintage Texture)"

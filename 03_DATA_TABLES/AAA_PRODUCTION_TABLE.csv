@@ -1,0 +1,20 @@
+Classification_ID,Pillar,Chapter_Dest,Subject,Data_Point,Context,Archetype,Label,Source_URL
+CLM-CH01-001,CLAIM,CH01,Revenue Potential,"$3,000/month recurring","Guru claim: charge businesses $3k for a chatbot",,,Liam Z (YT)
+CLM-CH01-002,CLAIM,CH01,Profit Margin,98%,"Guru claim: 'AI does all the work'",,,Liam Z (YT)
+CLM-CH01-003,CLAIM,CH01,Speed,"10k in 30 days","Fast profit promise via automation",,,Liam Z (YT)
+MCH-CH02-001,MECHANIC,CH02,Build Tool,Voiceflow,"Visual bot logic builder",,,Liam Z (YT)
+MCH-CH02-002,MECHANIC,CH02,Backend Tool,Stack AI,"LLM backend connector",,,Liam Z (YT)
+MCH-CH02-003,MECHANIC,CH02,Outreach,Instagram DMs,"Targeting 50 local plumbers",,,Liam Z (YT)
+MCH-CH02-004,MECHANIC,CH02,Outreach strategy,Physical Walk-in,"Validated: DMs fail, walk-ins bypass noise",,,Skool Success Story
+CST-CH03-001,COST,CH03,Software,Stack AI $150/mo,"Required for high-tier features",,,Reddit r/marketing
+CST-CH03-002,COST,CH03,Software,Voiceflow Pro $50/mo,"Monthly operational burn",,,Reddit r/marketing
+CST-CH03-003,COST,CH03,Lead Gen,Apollo.io $500,"Spent on conversion-poor data",,,Reddit r/marketing
+CST-CH03-004,COST,CH03,Training,Course Fee $3,000,"Typical guru accelerator cost",,,Market Baseline
+CON-CH05-001,CONSTRAINT,CH05,Customer trust,Chatbot Hallucinations,"Businesses terrified of bot errors",,,Reddit r/marketing
+CON-CH05-002,CONSTRAINT,CH05,API Risk,OpenAI Cost Spikes,"$200 lost overnight due to script loop",,,Twitter @AI_Hustle_King
+CON-CH05-003,CONSTRAINT,CH05,Saturation,DM Fatigue,"DMs have 99.5% failure rate due to bots",,,Market Snapshot
+OUT-CH04-001,OUTCOME,CH04,Failed Outreach,0% conversion,"400 cold emails, 0 sales",Karen/Professional,LOSER,Reddit r/marketing
+OUT-CH04-002,OUTCOME,CH04,Pilot Success,"$1,500 setup + $500/mo","Closed local gym via walk-in",Tyler/Winner,WINNER,Skool Success Story
+OUT-CH04-003,OUTCOME,CH04,Total Loss,"-$3,400 net result","3 months of effort, zero revenue",Jett/Loser,LOSER,Reddit r/marketing
+RES-CH07-001,RESOURCE,CH07,Automation,Zapier,"Essential for CRM/Lead flow",,,Industry Snippet
+RES-CH07-002,RESOURCE,CH07,Alternative,Physical Sales,"Better ROI than cold digital outreach",,,Market Audit

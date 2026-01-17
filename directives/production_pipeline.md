@@ -1,4 +1,5 @@
 # Y-IT Production Pipeline v2.0
+
 ## Full Parallel Workflow
 
 ---
@@ -10,7 +11,7 @@ PARALLEL PROCESSING:
 ├── Gemini: Detailed outline + Nano/Max drafts + Technical imagery prompts
 ├── Claude Opus/Sonnet: Artistic imagery prompts (PosiBot, interstitials)
 ├── Gemini Execution: Image generation (fed continuously, not waiting)
-└── Y-IT Machine 3: Pagify + KDP-ify (one chapter at a time)
+└── Y-IT Machine 2: Pagify + KDP-ify (one chapter at a time)
 
 ALL OUTPUTS → SOURCES in NotebookLM (preserved context)
 ```
@@ -25,13 +26,9 @@ ALL OUTPUTS → SOURCES in NotebookLM (preserved context)
 ├──────────────────────────────────────────────────────────────────────────────┤
 │  • Universal Chapter Outline v2.1                                            │
 │  • Y-IT Master Tone Document                                                 │
+│  • Y-IT Infographic Command Center (forge/reference/)                        │
 │  • 20 Locked Archetypes                                                      │
-│  • 6 Classification Categories                                               │
-└──────────────────────────────────────────────────────────────────────────────┘
-                                    ↓
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  Raw Research → Research Processor → DATA TABLES                             │
-│  (All become SOURCES in NotebookLM)                                          │
+│  • Pre-Vetted Data Tables (Served via External Research System)              │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -44,25 +41,21 @@ ALL OUTPUTS → SOURCES in NotebookLM (preserved context)
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│  RESEARCH PROCESSOR (Classifier)                                             │
-├──────────────────────────────────────────────────────────────────────────────┤
-│  INPUT: Raw research from INBOX                                              │
-│  OUTPUT: Classified data → DATA TABLES (6 categories)                        │
-└──────────────────────────────────────────────────────────────────────────────┘
-                                    ↓
-┌──────────────────────────────────────────────────────────────────────────────┐
 │  NEUTRAL AUTHOR (Foundation Builder) — Gemini Flash                          │
 ├──────────────────────────────────────────────────────────────────────────────┤
-│  INPUT: DATA TABLES + Universal Outline (constant)                           │
+│  INPUT: VETTED DATA TABLES + Universal Outline (constant)                    │
 │  OUTPUT: MEGA CHAPTERS (neutral, no tone)                                    │
 │  → Save as SOURCE in NotebookLM                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
+```
+
                                     ↓
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │  FIRST NEUTRAL DRAFT + INFOGRAPHIC PROMPTS                                   │
 ├──────────────────────────────────────────────────────────────────────────────┤
 │  INPUT: MEGA CHAPTERS                                                        │
 │  OUTPUT: First draft with embedded infographic prompt markers                │
+│  STYLE GUIDE: forge/reference/Y-IT_INFOGRAPHIC_COMMAND_CENTER.md             │
 └──────────────────────────────────────────────────────────────────────────────┘
                                     ↓
 ┌──────────────────────────────────────────────────────────────────────────────┐
@@ -94,6 +87,7 @@ ALL OUTPUTS → SOURCES in NotebookLM (preserved context)
 │  PROCESS: Compress/select from MAX (not independent creation)                │
 │  OUTPUT: Nano version with selected images                                   │
 └──────────────────────────────────────────────────────────────────────────────┘
+
 ```
 
 ---
@@ -101,6 +95,7 @@ ALL OUTPUTS → SOURCES in NotebookLM (preserved context)
 ## STAGE 4: CONTENT
 
 ```
+
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
 │  INPUT: Y-It-itude chapters (Nano + Max) + IMAGE RESERVOIR                          │
 ├─────────────────────────────────────────────────────────────────────────────────────┤
@@ -112,6 +107,7 @@ ALL OUTPUTS → SOURCES in NotebookLM (preserved context)
 │  OUTPUT: Audio overview, marketing snippets, affiliate content                      │
 │                                                                                     │
 └─────────────────────────────────────────────────────────────────────────────────────┘
+
 ```
 
 ---
@@ -119,6 +115,7 @@ ALL OUTPUTS → SOURCES in NotebookLM (preserved context)
 ## STAGE 5: POLISH (Claude)
 
 ```
+
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │  FINAL POLISH                                                                │
 ├──────────────────────────────────────────────────────────────────────────────┤
@@ -132,6 +129,7 @@ ALL OUTPUTS → SOURCES in NotebookLM (preserved context)
 │  COVER + PREFACE                                                             │
 │  (generated separately)                                                      │
 └──────────────────────────────────────────────────────────────────────────────┘
+
 ```
 
 ---
@@ -139,6 +137,7 @@ ALL OUTPUTS → SOURCES in NotebookLM (preserved context)
 ## STAGE 6: ASSEMBLY
 
 ```
+
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │  Y-IT BOOK MACHINE                                                           │
 ├──────────────────────────────────────────────────────────────────────────────┤
@@ -160,6 +159,7 @@ ALL OUTPUTS → SOURCES in NotebookLM (preserved context)
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │  PUBLISH                                                                     │
 └──────────────────────────────────────────────────────────────────────────────┘
+
 ```
 
 ---
@@ -174,13 +174,13 @@ ALL OUTPUTS → SOURCES in NotebookLM (preserved context)
 | **Claude Sonnet Thinking** | Artistic prompts (PosiBot, interstitials) |
 | **Gemini Image Gen** | Execute image prompts (fed continuously) |
 | **Chrome Extension** | Batch automation for Gemini image UI |
-| **Y-IT Machine 3** | Pagify + KDP-ify (needs refinement) |
+| **Y-IT Machine 2** | Pagify + KDP-ify (Handles formatted output) |
 
 ---
 
 ## STILL TBD
 
-- [ ] Y-IT Machine 3 spec (pagify, KDP-ify)
+- [ ] Y-IT Machine 2 spec (pagify, KDP-ify)
 - [ ] 6 NotebookLM persona prompts
 - [ ] Claude prompt templates (Opus/Sonnet)
 - [ ] Stitch + PDF automation
